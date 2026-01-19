@@ -377,7 +377,7 @@
         <div class="quick-actions">
           <span class="quick-label">QUICK_COMMANDS</span>
           <div class="quick-btns">
-            <button class="quick-btn" @click="execCode = 'toast(\"Hello!\");'">Toast</button>
+            <button class="quick-btn" @click="execCode = 'toast(&quot;Hello!&quot;);'">Toast</button>
             <button class="quick-btn" @click="execCode = 'console.log(device.getAndroidId());'">Device ID</button>
             <button class="quick-btn" @click="execCode = 'home();'">Home</button>
             <button class="quick-btn" @click="execCode = 'back();'">Back</button>
