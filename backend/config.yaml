@@ -1,0 +1,21 @@
+server:
+  http_port: 3000
+  ws_port: 3001
+
+database:
+  path: "./data/app.db"
+
+port_pool:
+  min: 10000
+  max: 60000
+
+jwt:
+  secret: "your-secret-key-change-in-production"
+  expire_hours: 168  # 7天
+
+pricing:
+  port_per_day: 1.0  # 每端口每天 1 元
+
+admin:
+  username: "admin"
+  password: "admin123"
