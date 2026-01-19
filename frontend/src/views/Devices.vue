@@ -351,7 +351,7 @@
               CODE_INPUT
             </span>
             <div class="editor-actions">
-              <button class="editor-btn" @click="execCode = 'toast(\"Hello from remote!\");'" title="插入示例">
+              <button class="editor-btn" @click="execCode = 'toast(&quot;Hello from remote!&quot;);'" title="插入示例">
                 示例
               </button>
               <button class="editor-btn" @click="execCode = ''" title="清空">
